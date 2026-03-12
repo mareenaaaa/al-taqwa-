@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Fade Up Animation using Intersection Observer
-    const fadeElements = document.querySelectorAll('.fade-up');
+    // Fade Animation using Intersection Observer
+    const fadeElements = document.querySelectorAll('.fade-up, .fade-from-left, .fade-from-right');
     
     const observerOptions = {
         root: null,
