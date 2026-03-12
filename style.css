@@ -1331,6 +1331,30 @@ We use combinations of percentages and fixed pixel values to force the backgroun
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.meet-developers {
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.meet-developers a {
+    color: #999999;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.meet-developers a:hover {
+    color: var(--secondary);
+}
+
+.meet-developers i {
+    font-size: 1.1rem;
+}
+
 /* --- Improved Global Responsiveness --- */
 :root {
     --section-padding: 8rem;
