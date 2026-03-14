@@ -183,13 +183,15 @@ ul {
 }
 
 .navbar.scrolled {
-    background-color: var(--primary);
-    padding: 1rem 0;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    background-color: rgba(13, 13, 13, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 0.5rem 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 .navbar.scrolled .logo img {
-    height: 90px;
+    height: 70px;
 }
 
 .nav-container {
@@ -1331,29 +1333,7 @@ We use combinations of percentages and fixed pixel values to force the backgroun
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.meet-developers {
-    margin-top: 0.8rem;
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
 
-.meet-developers a {
-    color: #999999;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    transition: color 0.3s ease;
-}
-
-.meet-developers a:hover {
-    color: var(--secondary);
-}
-
-.meet-developers i {
-    font-size: 1.1rem;
-}
 
 /* --- Improved Global Responsiveness --- */
 :root {
